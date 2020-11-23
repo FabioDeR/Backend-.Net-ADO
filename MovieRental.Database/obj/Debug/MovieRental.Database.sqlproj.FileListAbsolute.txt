@@ -4,3 +4,7 @@ C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\bin\Debug\Mo
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.dll
 C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\MovieRental.pdb
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\Model.xml
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\refactor.xml
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\postdeploy.sql
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieRental.Database\obj\Debug\predeploy.sql

@@ -45,6 +45,13 @@ namespace MovieDAL.Services
             return connection.ExecuteReader<Film>(cmd, Converter);
         }
 
+        public IEnumerable<Film> GetByIdActor(int id)
+        {
+            Command cmd = new Command("GetFimByIdActor", true);
+            cmd.AddParameter("ActorId", id);
+            return connection.ExecuteReader<Film>(cmd, Converter);
+        }
+
 
         public IEnumerable<Film> GetByCategory(string catName)
         {
@@ -53,12 +60,28 @@ namespace MovieDAL.Services
             return connection.ExecuteReader<Film>(cmd, Converter);
 
         }
+
+        public IEnumerable<Film> GetByIdCategory(int id)
+        {
+            Command cmd = new Command("GetFilmByIdCategory", true);
+            cmd.AddParameter("CategoryId", id);
+            return connection.ExecuteReader<Film>(cmd, Converter);
+        }
+
+
         public IEnumerable<Film> GetByLanguage(string language)
         {
             Command cmd = new Command("GetFilmByLanguage", true);
             cmd.AddParameter("Language", language);
             return connection.ExecuteReader<Film>(cmd, Converter);
 
+        }
+
+        public IEnumerable<Film> GetByIdLanguage(int id)
+        {
+            Command cmd = new Command("GetFilmByIdLanguage", true);
+            cmd.AddParameter("LanguageId", id);
+            return connection.ExecuteReader<Film>(cmd, Converter);
         }
 
         public IEnumerable<Film> GetByTitle(string title)
@@ -76,6 +99,8 @@ namespace MovieDAL.Services
             return connection.ExecuteReader<Film>(cmd, Converter);
 
         }
+
+
 
 
 

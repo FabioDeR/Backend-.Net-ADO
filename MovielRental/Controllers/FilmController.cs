@@ -36,11 +36,25 @@ namespace MovielRental.Controllers
         }
 
         [HttpGet]
+        [Route("ActorId")]
+        public IActionResult GetByIdActor(int id)
+        {
+            return Ok(_service.GetByIdActor(id));
+        }
+
+        [HttpGet]
         [Route("Category")]
 
-        public IActionResult GetByCategory(string catName)
+        public IActionResult GetByIdCategory(string catName)
         {
             return Ok(_service.GetByCategory(catName));
+        }
+
+        [HttpGet]
+        [Route("CategoryId")]
+        public IActionResult GetByCategory(int id)
+        {
+            return Ok(_service.GetByIdCategory(id));
         }
 
         [HttpGet]
@@ -49,6 +63,13 @@ namespace MovielRental.Controllers
         public IActionResult GetByLanguage(string language)
         {
             return Ok(_service.GetByLanguage(language));
+        }
+
+        [HttpGet]
+        [Route("LanguageId")]
+        public IActionResult GetByLanguage(int id)
+        {
+            return Ok(_service.GetByIdLanguage(id));
         }
 
         [HttpGet]

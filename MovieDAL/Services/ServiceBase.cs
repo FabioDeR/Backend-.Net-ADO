@@ -15,7 +15,7 @@ namespace MovieDAL.Services
 
         public ServiceBase()
         {
-            this.connection = new Connection(@"");
+            this.connection = new Connection(@"Data Source=DESKTOP-3BU14P9;Initial Catalog=MovieRentalDb;Integrated Security=True");
         }
 
 

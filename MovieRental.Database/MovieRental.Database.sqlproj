@@ -97,6 +97,9 @@
     <Build Include="ProcedureStockee\Actor\GetAllActorInitial.sql" />
     <Build Include="ProcedureStockee\Category\GetAllCategory.sql" />
     <Build Include="ProcedureStockee\Category\GetCategoryById.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdCategory.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdLanguage.sql" />
+    <Build Include="ProcedureStockee\Film\GetFilmByIdActor.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

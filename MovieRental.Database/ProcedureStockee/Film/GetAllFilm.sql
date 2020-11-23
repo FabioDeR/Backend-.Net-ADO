@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[GetAllFilm]
+
+	AS
+BEGIN
+	SELECT * FROM Film
+END

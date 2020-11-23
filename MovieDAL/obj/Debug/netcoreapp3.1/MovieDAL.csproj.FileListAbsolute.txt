@@ -1,0 +1,12 @@
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csprojAssemblyReference.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.AssemblyInfoInputs.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.AssemblyInfo.cs
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csproj.CoreCompileInputs.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.deps.json
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.dll
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\MovieDAL.pdb
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\ADOLibrairy.dll
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\bin\Debug\netcoreapp3.1\ADOLibrairy.pdb
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.csproj.CopyComplete
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.dll
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\MovieDAL\obj\Debug\netcoreapp3.1\MovieDAL.pdb

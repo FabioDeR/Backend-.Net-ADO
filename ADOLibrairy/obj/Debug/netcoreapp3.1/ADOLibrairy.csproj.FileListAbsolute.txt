@@ -1,0 +1,9 @@
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.deps.json
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.dll
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\bin\Debug\netcoreapp3.1\ADOLibrairy.pdb
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.csprojAssemblyReference.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.AssemblyInfoInputs.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.AssemblyInfo.cs
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.csproj.CoreCompileInputs.cache
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.dll
+C:\Dev\Projet c#\DemoMovieRental\MovieRentalDB\ADOLibrairy\obj\Debug\netcoreapp3.1\ADOLibrairy.pdb

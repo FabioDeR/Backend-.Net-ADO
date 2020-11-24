@@ -1,4 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[MVSP_CheckCustomer]
+
 	@Email NVARCHAR(320),
 	@Passwd VARCHAR(20)
 AS

@@ -23,13 +23,15 @@ namespace MovielRental.Controllers
 
         [HttpPost]
         
-        [Route("/Customer")]
+        [Route("/Login")]
         public IActionResult GetCheck(Customer customer)
         {
             return Ok(_service.GetCheck(customer));
         }
 
         [HttpPost]
+        [Route("/Register")]
+
 
         public IActionResult Insert(Customer entity)
         {

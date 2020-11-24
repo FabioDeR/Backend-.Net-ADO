@@ -51,8 +51,8 @@ namespace MovieDAL.Services
                 (int)reader["CustomerId"],
                 reader["LastName"].ToString(),
                 reader["FirstName"].ToString(),
-                reader["Email"].ToString(),
-                reader["Passwd"].ToString()
+                reader["Email"].ToString()
+                
             );
         }
 

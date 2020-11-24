@@ -11,12 +11,21 @@ namespace MovieDAL.Models
         public string FirstName { get; set; }
         public string Email { get; set; }
         public string Passwd {  get; set; }
+        public string Token { get; set; }
 
-        
+
 
         // pour Postman
         public Customer()
         {
+        }
+
+        public Customer(int id, string lastName, string firstName, string email)
+        {
+            Id = id;
+            LastName = lastName;
+            FirstName = firstName;
+            Email = email;
         }
 
         public Customer(string lastName, string firstName, string email, string passwd)
@@ -31,6 +40,8 @@ namespace MovieDAL.Models
         {
             Id = id;
         }
+
+        
     }
 }
 

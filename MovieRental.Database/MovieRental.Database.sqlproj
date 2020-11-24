@@ -59,12 +59,12 @@
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
     <Folder Include="Functions" />
-    <Folder Include="Procedures" />
     <Folder Include="Views" />
     <Folder Include="ProcedureStockee" />
     <Folder Include="ProcedureStockee\Actor" />
     <Folder Include="ProcedureStockee\Film" />
     <Folder Include="ProcedureStockee\Category" />
+    <Folder Include="ProcedureStockee\Auth" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -79,8 +79,6 @@
     <Build Include="Tables\RentalDetail.sql" />
     <Build Include="Functions\MVSF_GetPostHash.sql" />
     <Build Include="Functions\MVSF_GetPreHash.sql" />
-    <Build Include="Procedures\MVSP_CheckCustomer.sql" />
-    <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
     <Build Include="Views\V_Film.sql" />
     <Build Include="ProcedureStockee\Actor\GetActorByFilm.sql" />
     <Build Include="ProcedureStockee\Actor\GetActorByInitiale.sql" />
@@ -100,6 +98,8 @@
     <Build Include="ProcedureStockee\Film\GetFilmByIdCategory.sql" />
     <Build Include="ProcedureStockee\Film\GetFilmByIdLanguage.sql" />
     <Build Include="ProcedureStockee\Film\GetFilmByIdActor.sql" />
+    <Build Include="ProcedureStockee\Auth\MVSP_RegisterCustomer.sql" />
+    <Build Include="ProcedureStockee\Auth\MVSP_CheckCustomer.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

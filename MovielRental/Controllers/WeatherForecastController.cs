@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MovielRental.Infrastructure.Security;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +12,13 @@ namespace MovielRental.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [AuthRequired]
+    
     public class WeatherForecastController : ControllerBase
     {
+      
+
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -24,6 +32,7 @@ namespace MovielRental.Controllers
         }
 
         [HttpGet]
+        [AuthRequired]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

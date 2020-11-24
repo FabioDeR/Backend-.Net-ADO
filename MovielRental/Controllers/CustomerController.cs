@@ -9,33 +9,33 @@ using System.Threading.Tasks;
 
 namespace MovielRental.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CustomerController : ControllerBase
-    {
-        private CustomerService _service;
+    //[Route("api/[controller]")]
+    //[ApiController]
+    //public class CustomerController : ControllerBase
+    //{
+    //    private CustomerService _service;
 
-        public CustomerController()
-        {
-            _service = new CustomerService();
-        }
+    //    public CustomerController()
+    //    {
+    //        _service = new CustomerService();
+    //    }
 
 
-        [HttpPost]
+    //    [HttpPost]
         
-        [Route("/Login")]
-        public IActionResult GetCheck(Customer customer)
-        {
-            return Ok(_service.GetCheck(customer));
-        }
+    //    [Route("/Login")]
+    //    public IActionResult GetCheck(Customer customer)
+    //    {
+    //        return Ok(_service.GetCheck(customer));
+    //    }
 
-        [HttpPost]
-        [Route("/Register")]
+    //    [HttpPost]
+    //    [Route("/Register")]
 
 
-        public IActionResult Insert(Customer entity)
-        {
-            return Ok(_service.Insert(entity));
-        }
-    }
+    //    public IActionResult Insert(Customer entity)
+    //    {
+    //        return Ok(_service.Insert(entity));
+    //    }
+    //}
 }

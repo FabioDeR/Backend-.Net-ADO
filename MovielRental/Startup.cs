@@ -7,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MovielRental.Infrastructure.Security;
+using MovielRental.Models.Interface;
+using MovielRental.Models.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +35,8 @@ namespace MovielRental
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovielRental", Version = "v1" });
             });
+            services.AddSingleton<IAuthService, AuthService>();
+            services.AddSingleton<ITokenService, TokenService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

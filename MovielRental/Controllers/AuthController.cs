@@ -11,17 +11,21 @@ using System.Threading.Tasks;
 
 namespace MovielRental.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
         private readonly ITokenService _tokenService;
+
+
         public AuthController(IAuthService authService, ITokenService tokenService)
         {
             _authService = authService;
             _tokenService = tokenService;
         }
+
         [HttpPost("Register")]
         public IActionResult Register([FromBody] RegisterForm form)
         {
@@ -63,3 +67,4 @@ namespace MovielRental.Controllers
 
     }
 }
+    

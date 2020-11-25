@@ -1,0 +1,73 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[FilmIds] (Type de table défini par l'utilisateur)
+       [dbo].[Actor] (Table)
+       [dbo].[actor].[IX_Actor_LastName] (Index)
+       [dbo].[Category] (Table)
+       [dbo].[Customer] (Table)
+       [dbo].[Film] (Table)
+       [dbo].[Film].[IX_Film_Title] (Index)
+       [dbo].[Film].[IX_Film_LanguageId] (Index)
+       [dbo].[FilmActor] (Table)
+       [dbo].[FilmActor].[IX_FilmActor_ActorId] (Index)
+       [dbo].[FilmActor].[IX_FilmActor_FilmId] (Index)
+       [dbo].[FilmCategory] (Table)
+       [dbo].[FilmCategory].[IX_FilmCategory_FilmId] (Index)
+       [dbo].[FilmCategory].[IX_FilmCategory_CategoryId] (Index)
+       [dbo].[Language] (Table)
+       [dbo].[Rating] (Table)
+       [dbo].[Rental] (Table)
+       [dbo].[Rental].[IX_Rental_CustomerId] (Index)
+       [dbo].[RentalDetail] (Table)
+       [dbo].[RentalDetail].[IX_RentalDetail_FilmId] (Index)
+       [dbo].[RentalDetail].[IX_RentalDetail_RentalId] (Index)
+       [dbo].[DF_Film_RentalDuration] (Contrainte par défaut)
+       [dbo].[DF_Film_RentalRate] (Contrainte par défaut)
+       [dbo].[DF_Film_ReplacementCost] (Contrainte par défaut)
+       [dbo].[DF_Film_RatingId] (Contrainte par défaut)
+       [dbo].[DF_Rental_RentalDate] (Contrainte par défaut)
+       [dbo].[FK_Film_Language] (Clé étrangère)
+       [dbo].[FK_Film_Rating] (Clé étrangère)
+       [dbo].[FK_FilmActor_Actor] (Clé étrangère)
+       [dbo].[FK_FilmActor_Film] (Clé étrangère)
+       [dbo].[FK_FilmCategory_Category] (Clé étrangère)
+       [dbo].[FK_FilmCategory_Film] (Clé étrangère)
+       [dbo].[FK_Rental_Customer] (Clé étrangère)
+       [dbo].[FK_RentalDetail_Rental] (Clé étrangère)
+       [dbo].[FK_RentalDetail_Film] (Clé étrangère)
+       [dbo].[V_Film] (Vue)
+       [dbo].[MVSF_GetPostHash] (Fonction)
+       [dbo].[MVSF_GetPreHash] (Fonction)
+       [dbo].[CreatRental] (Procédure)
+       [dbo].[FilmByTitle] (Procédure)
+       [dbo].[GetActorByFilm] (Procédure)
+       [dbo].[GetActorByInitiale] (Procédure)
+       [dbo].[GetActorInitial] (Procédure)
+       [dbo].[GetAllActor] (Procédure)
+       [dbo].[GetAllActorInitial] (Procédure)
+       [dbo].[GetAllCategory] (Procédure)
+       [dbo].[GetAllFilm] (Procédure)
+       [dbo].[GetByIdActor] (Procédure)
+       [dbo].[GetCategoryById] (Procédure)
+       [dbo].[GetFilmByActor] (Procédure)
+       [dbo].[GetFilmByCategory] (Procédure)
+       [dbo].[GetFilmById] (Procédure)
+       [dbo].[GetFilmByIdCategory] (Procédure)
+       [dbo].[GetFilmByIdLanguage] (Procédure)
+       [dbo].[GetFilmByKeyWord] (Procédure)
+       [dbo].[GetFilmByLanguage] (Procédure)
+       [dbo].[GetFimByIdActor] (Procédure)
+       [dbo].[MVSP_CheckCustomer] (Procédure)
+       [dbo].[MVSP_RegisterCustomer] (Procédure)
+
+** Actions de support

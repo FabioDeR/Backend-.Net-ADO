@@ -65,6 +65,9 @@
     <Folder Include="ProcedureStockee\Film" />
     <Folder Include="ProcedureStockee\Category" />
     <Folder Include="ProcedureStockee\Auth" />
+    <Folder Include="ProcedureStockee\Rental" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="Types" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -100,6 +103,8 @@
     <Build Include="ProcedureStockee\Film\GetFilmByIdActor.sql" />
     <Build Include="ProcedureStockee\Auth\MVSP_RegisterCustomer.sql" />
     <Build Include="ProcedureStockee\Auth\MVSP_CheckCustomer.sql" />
+    <Build Include="ProcedureStockee\Rental\CreatRental.sql" />
+    <Build Include="Types\FilmIds.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

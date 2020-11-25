@@ -22,8 +22,6 @@ namespace MovielRental.Controllers
         }
 
 
-
-
         [HttpGet]
         public IActionResult getAll()
         {
